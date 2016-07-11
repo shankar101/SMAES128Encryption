@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90E059B91D33AF550029A543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E059B81D33AF550029A543 /* main.m */; };
+		90E059BC1D33AF560029A543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E059BB1D33AF560029A543 /* AppDelegate.m */; };
+		90E059BF1D33AF560029A543 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E059BE1D33AF560029A543 /* ViewController.m */; };
+		90E059C21D33AF560029A543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E059C01D33AF560029A543 /* Main.storyboard */; };
+		90E059C51D33AF570029A543 /* SMAES128Encryption.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90E059C31D33AF570029A543 /* SMAES128Encryption.xcdatamodeld */; };
+		90E059C71D33AF580029A543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E059C61D33AF580029A543 /* Assets.xcassets */; };
+		90E059CA1D33AF580029A543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E059C81D33AF580029A543 /* LaunchScreen.storyboard */; };
+		90E059D51D33AF590029A543 /* SMAES128EncryptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E059D41D33AF590029A543 /* SMAES128EncryptionTests.m */; };
+		90E059E01D33AF5B0029A543 /* SMAES128EncryptionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E059DF1D33AF5B0029A543 /* SMAES128EncryptionUITests.m */; };
+		90E059F21D33AF7F0029A543 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E059EF1D33AF7F0029A543 /* NSData+AES.m */; };
+		90E059F31D33AF7F0029A543 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E059F11D33AF7F0029A543 /* NSString+AES.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90E059D11D33AF580029A543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E059AC1D33AF530029A543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E059B31D33AF540029A543;
+			remoteInfo = SMAES128Encryption;
+		};
+		90E059DC1D33AF5A0029A543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E059AC1D33AF530029A543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E059B31D33AF540029A543;
+			remoteInfo = SMAES128Encryption;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90E059B41D33AF540029A543 /* SMAES128Encryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMAES128Encryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E059B81D33AF550029A543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90E059BA1D33AF550029A543 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90E059BB1D33AF560029A543 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90E059BD1D33AF560029A543 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90E059BE1D33AF560029A543 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90E059C11D33AF560029A543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90E059C41D33AF570029A543 /* SMAES128Encryption.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMAES128Encryption.xcdatamodel; sourceTree = "<group>"; };
+		90E059C61D33AF580029A543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90E059C91D33AF580029A543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90E059CB1D33AF580029A543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E059D01D33AF580029A543 /* SMAES128EncryptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMAES128EncryptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E059D41D33AF590029A543 /* SMAES128EncryptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAES128EncryptionTests.m; sourceTree = "<group>"; };
+		90E059D61D33AF590029A543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E059DB1D33AF5A0029A543 /* SMAES128EncryptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMAES128EncryptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E059DF1D33AF5B0029A543 /* SMAES128EncryptionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAES128EncryptionUITests.m; sourceTree = "<group>"; };
+		90E059E11D33AF5B0029A543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E059EE1D33AF7F0029A543 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		90E059EF1D33AF7F0029A543 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		90E059F01D33AF7F0029A543 /* NSString+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		90E059F11D33AF7F0029A543 /* NSString+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90E059B11D33AF540029A543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E059CD1D33AF580029A543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E059D81D33AF590029A543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90E059AB1D33AF530029A543 = {
+			isa = PBXGroup;
+			children = (
+				90E059B61D33AF550029A543 /* SMAES128Encryption */,
+				90E059D31D33AF590029A543 /* SMAES128EncryptionTests */,
+				90E059DE1D33AF5B0029A543 /* SMAES128EncryptionUITests */,
+				90E059B51D33AF540029A543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90E059B51D33AF540029A543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90E059B41D33AF540029A543 /* SMAES128Encryption.app */,
+				90E059D01D33AF580029A543 /* SMAES128EncryptionTests.xctest */,
+				90E059DB1D33AF5A0029A543 /* SMAES128EncryptionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90E059B61D33AF550029A543 /* SMAES128Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				90E059ED1D33AF7F0029A543 /* AES128Encryption */,
+				90E059BA1D33AF550029A543 /* AppDelegate.h */,
+				90E059BB1D33AF560029A543 /* AppDelegate.m */,
+				90E059BD1D33AF560029A543 /* ViewController.h */,
+				90E059BE1D33AF560029A543 /* ViewController.m */,
+				90E059C01D33AF560029A543 /* Main.storyboard */,
+				90E059C61D33AF580029A543 /* Assets.xcassets */,
+				90E059C81D33AF580029A543 /* LaunchScreen.storyboard */,
+				90E059CB1D33AF580029A543 /* Info.plist */,
+				90E059C31D33AF570029A543 /* SMAES128Encryption.xcdatamodeld */,
+				90E059B71D33AF550029A543 /* Supporting Files */,
+			);
+			path = SMAES128Encryption;
+			sourceTree = "<group>";
+		};
+		90E059B71D33AF550029A543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90E059B81D33AF550029A543 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90E059D31D33AF590029A543 /* SMAES128EncryptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				90E059D41D33AF590029A543 /* SMAES128EncryptionTests.m */,
+				90E059D61D33AF590029A543 /* Info.plist */,
+			);
+			path = SMAES128EncryptionTests;
+			sourceTree = "<group>";
+		};
+		90E059DE1D33AF5B0029A543 /* SMAES128EncryptionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90E059DF1D33AF5B0029A543 /* SMAES128EncryptionUITests.m */,
+				90E059E11D33AF5B0029A543 /* Info.plist */,
+			);
+			path = SMAES128EncryptionUITests;
+			sourceTree = "<group>";
+		};
+		90E059ED1D33AF7F0029A543 /* AES128Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				90E059EE1D33AF7F0029A543 /* NSData+AES.h */,
+				90E059EF1D33AF7F0029A543 /* NSData+AES.m */,
+				90E059F01D33AF7F0029A543 /* NSString+AES.h */,
+				90E059F11D33AF7F0029A543 /* NSString+AES.m */,
+			);
+			path = AES128Encryption;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90E059B31D33AF540029A543 /* SMAES128Encryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E059E41D33AF5B0029A543 /* Build configuration list for PBXNativeTarget "SMAES128Encryption" */;
+			buildPhases = (
+				90E059B01D33AF540029A543 /* Sources */,
+				90E059B11D33AF540029A543 /* Frameworks */,
+				90E059B21D33AF540029A543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMAES128Encryption;
+			productName = SMAES128Encryption;
+			productReference = 90E059B41D33AF540029A543 /* SMAES128Encryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90E059CF1D33AF580029A543 /* SMAES128EncryptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E059E71D33AF5B0029A543 /* Build configuration list for PBXNativeTarget "SMAES128EncryptionTests" */;
+			buildPhases = (
+				90E059CC1D33AF580029A543 /* Sources */,
+				90E059CD1D33AF580029A543 /* Frameworks */,
+				90E059CE1D33AF580029A543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E059D21D33AF580029A543 /* PBXTargetDependency */,
+			);
+			name = SMAES128EncryptionTests;
+			productName = SMAES128EncryptionTests;
+			productReference = 90E059D01D33AF580029A543 /* SMAES128EncryptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90E059DA1D33AF590029A543 /* SMAES128EncryptionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E059EA1D33AF5B0029A543 /* Build configuration list for PBXNativeTarget "SMAES128EncryptionUITests" */;
+			buildPhases = (
+				90E059D71D33AF590029A543 /* Sources */,
+				90E059D81D33AF590029A543 /* Frameworks */,
+				90E059D91D33AF590029A543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E059DD1D33AF5A0029A543 /* PBXTargetDependency */,
+			);
+			name = SMAES128EncryptionUITests;
+			productName = SMAES128EncryptionUITests;
+			productReference = 90E059DB1D33AF5A0029A543 /* SMAES128EncryptionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90E059AC1D33AF530029A543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Customer First";
+				TargetAttributes = {
+					90E059B31D33AF540029A543 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					90E059CF1D33AF580029A543 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 90E059B31D33AF540029A543;
+					};
+					90E059DA1D33AF590029A543 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 90E059B31D33AF540029A543;
+					};
+				};
+			};
+			buildConfigurationList = 90E059AF1D33AF530029A543 /* Build configuration list for PBXProject "SMAES128Encryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90E059AB1D33AF530029A543;
+			productRefGroup = 90E059B51D33AF540029A543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90E059B31D33AF540029A543 /* SMAES128Encryption */,
+				90E059CF1D33AF580029A543 /* SMAES128EncryptionTests */,
+				90E059DA1D33AF590029A543 /* SMAES128EncryptionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90E059B21D33AF540029A543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E059CA1D33AF580029A543 /* LaunchScreen.storyboard in Resources */,
+				90E059C71D33AF580029A543 /* Assets.xcassets in Resources */,
+				90E059C21D33AF560029A543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E059CE1D33AF580029A543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E059D91D33AF590029A543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90E059B01D33AF540029A543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E059F21D33AF7F0029A543 /* NSData+AES.m in Sources */,
+				90E059F31D33AF7F0029A543 /* NSString+AES.m in Sources */,
+				90E059BF1D33AF560029A543 /* ViewController.m in Sources */,
+				90E059BC1D33AF560029A543 /* AppDelegate.m in Sources */,
+				90E059C51D33AF570029A543 /* SMAES128Encryption.xcdatamodeld in Sources */,
+				90E059B91D33AF550029A543 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E059CC1D33AF580029A543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E059D51D33AF590029A543 /* SMAES128EncryptionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E059D71D33AF590029A543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E059E01D33AF5B0029A543 /* SMAES128EncryptionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90E059D21D33AF580029A543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E059B31D33AF540029A543 /* SMAES128Encryption */;
+			targetProxy = 90E059D11D33AF580029A543 /* PBXContainerItemProxy */;
+		};
+		90E059DD1D33AF5A0029A543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E059B31D33AF540029A543 /* SMAES128Encryption */;
+			targetProxy = 90E059DC1D33AF5A0029A543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90E059C01D33AF560029A543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E059C11D33AF560029A543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90E059C81D33AF580029A543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E059C91D33AF580029A543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90E059E21D33AF5B0029A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90E059E31D33AF5B0029A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90E059E51D33AF5B0029A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMAES128Encryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.indusnet.cfdemo.SMAES128Encryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90E059E61D33AF5B0029A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMAES128Encryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.indusnet.cfdemo.SMAES128Encryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90E059E81D33AF5B0029A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMAES128EncryptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.indusnet.cfdemo.SMAES128EncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMAES128Encryption.app/SMAES128Encryption";
+			};
+			name = Debug;
+		};
+		90E059E91D33AF5B0029A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMAES128EncryptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.indusnet.cfdemo.SMAES128EncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMAES128Encryption.app/SMAES128Encryption";
+			};
+			name = Release;
+		};
+		90E059EB1D33AF5B0029A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMAES128EncryptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.indusnet.cfdemo.SMAES128EncryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMAES128Encryption;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		90E059EC1D33AF5B0029A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMAES128EncryptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.indusnet.cfdemo.SMAES128EncryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMAES128Encryption;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90E059AF1D33AF530029A543 /* Build configuration list for PBXProject "SMAES128Encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E059E21D33AF5B0029A543 /* Debug */,
+				90E059E31D33AF5B0029A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E059E41D33AF5B0029A543 /* Build configuration list for PBXNativeTarget "SMAES128Encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E059E51D33AF5B0029A543 /* Debug */,
+				90E059E61D33AF5B0029A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90E059E71D33AF5B0029A543 /* Build configuration list for PBXNativeTarget "SMAES128EncryptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E059E81D33AF5B0029A543 /* Debug */,
+				90E059E91D33AF5B0029A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90E059EA1D33AF5B0029A543 /* Build configuration list for PBXNativeTarget "SMAES128EncryptionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E059EB1D33AF5B0029A543 /* Debug */,
+				90E059EC1D33AF5B0029A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90E059C31D33AF570029A543 /* SMAES128Encryption.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90E059C41D33AF570029A543 /* SMAES128Encryption.xcdatamodel */,
+			);
+			currentVersion = 90E059C41D33AF570029A543 /* SMAES128Encryption.xcdatamodel */;
+			path = SMAES128Encryption.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90E059AC1D33AF530029A543 /* Project object */;
+}
